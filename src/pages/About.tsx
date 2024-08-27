@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Home: React.FC = () => {
+const About: React.FC = () => {
   return (
     <div>
-      <h1>Welcome to the Home Page</h1>
-      <p>This is a simple example of a Home component.</p>
+      <h1>About Page</h1>
+      <p>This is a simple example of an About component.</p>
       <nav>
         <ul>
           <li>
@@ -20,4 +20,4 @@ const Home: React.FC = () => {
   );
 };
 
-export default Home;
+export default About;
