@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: powderblue;
+}
+
+.center_text {
+  text-align: 'center'
+}
+
+.navbar-custom {
+  padding-left: 20px; /* Add padding to the left of the Navbar */
+}
+
+.navbar-brand-custom {
+    margin-left: 20px !important; /* Pushes the brand to the right if there is available space */
+    color: #ff5733 !important; /* Example color */
+}
+
+.navbar-nav-custom {
+  margin-left: auto; /* Pushes Nav items to the right */
+  color:#61dafb
+}
