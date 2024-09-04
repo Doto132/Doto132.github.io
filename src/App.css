@@ -38,7 +38,7 @@
 }
 
 body {
-  background-color: powderblue;
+  background-color: powderblue !important;
 }
 
 .center_text {
@@ -51,10 +51,21 @@ body {
 
 .navbar-brand-custom {
     margin-left: 20px !important; /* Pushes the brand to the right if there is available space */
-    color: #ff5733 !important; /* Example color */
 }
 
-.navbar-nav-custom {
-  margin-left: auto; /* Pushes Nav items to the right */
-  color:#61dafb
+.text-home {
+  margin-left: 20px !important; 
+  margin-top: 20px;
+}
+
+.selfPhoto {
+  border: 5px solid #1d1c1c;
+  float: right;
+  margin-right: 30px;
+  max-width: 15%;
+  max-height: 25%
+}
+
+.larger-font {
+  font-size: 56px;
 }
